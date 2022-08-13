@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares incríveis</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css>
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>Lugares</span> incríveis</a>
+
+    <nav class="navbar">
+        <a href="#home">inicio</a>
+        <a href="#book">agendamento</a>
+        <a href="#packages">pacotes</a>
+        <a href="#services">serviços</a>
+        <a href="#gallery">galeria</a>
+        <a href="#review">avaliação</a>
+        <a href="#contact">contato</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="busque aqui...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="Insira seu email">
+        <input type="password" class="box" placeholder="Insira sua senha">
+        <input type="submit" value="entrar" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">lembre-se de mim</label>
+        <p>Esqueceu sua senha? <a href="#">Clique aqui</a></p>
+        <p>Não possui uma conta? <a href="#">Cadastre-se agora</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>aventuras que valem a pena</h3>
+        <p>Explore novos lugares com a gente, a aventura aguarda</p>
+        <a href="#" class="btn">Saiba mais</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="imagens/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="imagens/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="imagens/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="imagens/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="imagens/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="imagens/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>n</span>
+        <span>d</span>
+        <span>e</span>
+        <span class="space"></span>
+        <span>a</span>
+        <span>g</span>
+        <span>o</span>
+        <span>r</span>
+        <span>a</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="imagens/book-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>Pra onde?</h3>
+                <input type="text" placeholder="insira seu destino">
+            </div>
+            <div class="inputBox">
+                <h3>Pra quantos?</h3>
+                <input type="number" placeholder="número de pessoas">
+            </div>
+            <div class="inputBox">
+                <h3>Ida</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>Volta</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="Agende aqui">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>o</span>
+        <span>t</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="imagens/p-1.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                <p>Embora Mumbai seja caótica e lotada, a cidade também pode oferecer momentos de tranquilidade. 
+                    Aprecie o bhelpuri, embalado em papel, enquanto passeia pelas areias da praia de Chowpatty
+                    antes de uma curta caminhada até Mani Bhavan, o local onde Mahatma Gandhi viveu, traçou estratégias e foi,
+                    por fim, preso. Os mercados são locais agitados onde costuma-se barganhar o preço de temperos ou lembranças.
+                    Faça uma excursão guiada em Dharavi, famosa depois do filme "Quem quer ser um milionário", para ter uma ideia 
+                    de como é a vida em Mumbai para praticamente um milhão de pessoas.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price"> R$4.500,00 <span>R$4.924,00</span> </div>
+                <a href="#" class="btn">Agende agora</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="imagens/p-2.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> sydney </h3>
+                <p>Sydney, na Australia, uma cidade moderna e vívida cercada de natureza que oferece uma mistura urbana de história rica e agito moderno, mas com um espírito 
+                    australiano único. Para entender por que essa cidade é tão singular, faça a trilha pela costa de Bondi até Coogee, passando por praias, piscinas de 
+                    pedra e parques exuberantes. No icônico porto da cidade, a maravilhosa Ópera de Sydney se destaca como um origami de barco a vela. Também vale a pena
+                    ver a cidade de cima. As vistas que se tem do observatório Sydney Tower Eye são imponentes e vão ajudar você a saber como tudo está conectado.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> R$5.320,00 <span>R$5.645,00</span> </div>
+                <a href="#" class="btn">Agende agora</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="imagens/p-3.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> havaí </h3>
+                <p>Para muitos, a palavra “férias” lembra tomar banho de sol em uma praia ensolarada, nadar em um mar azul deslumbrante e cochilar
+                    embaixo de coqueiros. Em outras palavras, Havaí. Entretanto, os viajantes podem conhecer muito mais do que as praias maravilhosas. 
+                    Com paisagens vulcânicas, cachoeiras secretas e expedições incríveis, uma viagem para o Havaí pode ter diferentes destinos. 
+                    Cada uma das seis ilhas principais (Kauai, Oahu, Molokai, Lanai, Maui e a Ilha Havaí) tem sua própria personalidade, com oportunidades
+                    únicas de explorar a gastronomia e cultura local, além de relaxar e viver aventuras.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> R$5.000,00 <span>R$5.383,00</span> </div>
+                <a href="#" class="btn">Agende agora</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="imagens/p-4.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> paris </h3>
+                <p>A Cidade das Luzes encanta de todas as maneiras. Nenhum outro destino faz o coração suspirar como a simples menção a Paris. 
+                    A cidade encanta com sua extraordinária arte, arquitetura, cultura e culinária, e oferece também uma magia mais sutil a ser explorada: 
+                    pitorescas vielas de paralelepípedo, pâtisseries de esquina e bistrôs aconchegantes para saborear uma taça de vinho beaujolais, o incrível museu do Louvre
+                    e a emblemática torre Eiffel. Prepare-se para conhecer Paris do seu jeito.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> R$6.200,00 <span>R$6.680,00</span> </div>
+                <a href="#" class="btn">Agende agora</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="imagens/p-5.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> tóquio </h3>
+                <p>Uma cidade animada e repleta de contrastes. Com arranha-céus futurísticos, uma cena gastronômica única e vida noturna agitada,
+                    Tóquio é adrenalina pura. Esta cidade grande e multifacetada é conhecida por ser tecnológica. Por outro lado, os antigos templos budistas,
+                    casas de chá tradicionais e jardins tranquilos oferecem uma paisagem serena, bem como marcas delicadas da longa história da cidade.
+                    E, para quem sabe onde procurar, os pequenos encantos de Tóquio muitas vezes 
+                    estão bem à vista.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> R$2.400,00 <span>R$2.800,00</span> </div>
+                <a href="#" class="btn">Agende agora</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="imagens/p-6.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Cairo </h3>
+                <p>O Cairo é uma cidade antiga que, ao mesmo tempo, é uma moderna metrópole. É uma das maiores cidades do Oriente Médio, com problemas no trânsito
+                    e poluição sonora como prova disso. a Praça Tahrir e o amplo Museu Egípcio, que exibe uma coleção de antiguidades, como múmias reais e artefatos 
+                    dourados do Rei Tutancâmon. Mas enquanto você não estiver procurando por solidão, o Cairo, a Cidade dos Mil Minaretes, é um local formidável
+                    para explorar a cultura e a história egípcia.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> R$1.300,00 <span>R$1.669,00</span> </div>
+                <a href="#" class="btn">Agende agora</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>ç</span>
+        <span>o</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>Hotéis acessíveis</h3>
+            <p>Conosco consiga os melhores preços para a estadia nos melhores Hotéis do seu destino</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>Refeições</h3>
+            <p>Refeições inclusas em todos os pacotes disponíveis</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Guia de segurança</h3>
+            <p>Todas as medidas necessarias para garantir a segurança de nossos passageiros</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>Ao redor do mundo</h3>
+            <p>Os melhores destinos pelos melhores preços você encontra aqui</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>Viagem mais rápida</h3>
+            <p>A aeronaves mais modernas para garantir o seu conforto durante a viagem</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>Aventuras</h3>
+            <p>Os mais diversos pacotes para que você possa viver suas próprias aventuras</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>i</span>
+        <span>a</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="imagens/g-1.jpg" alt="">
+            <div class="content">
+                <h3>Lugares incríveis</h3>
+                <a href="#" class="btn">Ver mais</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="imagens/g-2.jpg" alt="">
+            <div class="content">
+                <h3>Aventuras inesquecíveis</h3>
+                <a href="#" class="btn">Ver mais</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="imagens/g-3.jpg" alt="">
+            <div class="content">
+                <h3>Culturas diversas</h3>
+                <a href="#" class="btn">Ver mais</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="imagens/g-4.jpg" alt="">
+            <div class="content">
+                <h3>Novos ares</h3>
+                <a href="#" class="btn">Ver mais</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="imagens/g-5.jpg" alt="">
+            <div class="content">
+                <h3>Memórias para vida</h3>
+                <a href="#" class="btn">Ver mais</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="imagens/g-6.jpg" alt="">
+            <div class="content">
+                <h3>Espírito livre</h3>
+                <a href="#" class="btn">ver mais</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="imagens/g-7.jpg" alt="">
+            <div class="content">
+                <h3>Momentos lindos</h3>
+                <a href="#" class="btn">Ver mais</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="imagens/g-8.jpg" alt="">
+            <div class="content">
+                <h3>Nenhum arrependimento</h3>
+                <a href="#" class="btn">Ver mais</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="imagens/g-9.jpg" alt="">
+            <div class="content">
+                <h3>Horizontes sem limites</h3>
+                <a href="#" class="btn">Ver mais</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>a</span>
+        <span>v</span>
+        <span>a</span>
+        <span>l</span>
+        <span>i</span>
+        <span>a</span>
+        <span>ç</span>
+        <span>ã</span>
+        <span>o</span>
+    </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="imagens/pic1.png" alt="">
+                    <h3>natália ferreira</h3>
+                    <p>Nunca fiz uma viagem tão incrível.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="imagens/pic2.png" alt="">
+                    <h3>mateo oliveira</h3>
+                    <p>Dígno de elogios. Excelente experiência.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="imagens/pic3.png" alt="">
+                    <h3>giovanna yokoyama</h3>
+                    <p>Só não dou 6 estrelas porquê não tem essa opção.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="imagens/pic4.png" alt="">
+                    <h3>leonardo gomes</h3>
+                    <p>Minha experiência foi ótima. Ganharam um cliente.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts -->
+
+<section class="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>t</span>
+        <span>o</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="imagens/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="nome">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="telefone">
+                <input type="text" placeholder="assunto">
+            </div>
+            <textarea  placeholder="mensagem" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="Enviar mensagem">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- brand section -->
+
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="imagens/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="imagens/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="imagens/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="imagens/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="imagens/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="imagens/6.jpg" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+<!-- footer section -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Sobre nós</h3>
+            <p>Nosso principal objetivo é permitir que nossos clientes possam desfrutar de experiências incríveis 
+                sem se preocuparem com questões financeiras. Desejamos auxiliar nossos clientes com qualquer coisa que precisem
+                para que possam criar memórias e sorrir com essas lembranças no futuro.</p>
+        </div>
+        <div class="box">
+            <h3>Nossas filiais</h3>
+            <a href="#">India</a>
+            <a href="#">EUA</a>
+            <a href="#">Japão</a>
+            <a href="#">França</a>
+        </div>
+        <div class="box">
+            <h3>Links rápidos</h3>
+            <a href="#">Inicio</a>
+            <a href="#">Agendamento</a>
+            <a href="#">Pacotes</a>
+            <a href="#">Serviços</a>
+            <a href="#">Galeria</a>
+            <a href="#">Avaliação</a>
+            <a href="#">Contato</a>
+        </div>
+        <div class="box">
+            <h3>Siga-nos</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Linkedin</a>
+        </div>
+
+    </div>
+
+    <!-- <h1 class="credit"> Criado por <span> Vítor L. Ramôa</span> | Todos os direitos reservados! </h1> -->
+
+</section>
+
+
+
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<!-- custom js file link -->
+<script src="script.js"></script>
+    
+</body>
+</html>
